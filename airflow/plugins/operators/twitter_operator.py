@@ -59,7 +59,7 @@ if __name__ == "__main__":
             query="AluraOnline",
             file_path=join("/home/deveza/study/datapipeline/datalake",
             "twitter_aluraonline",
-            "extract_date={{ ds }}",
+            "extract_date={{ds}}",
             "AluraOnline_{{ ds_nodash }}.json"),
             task_id="test_run"
         )
